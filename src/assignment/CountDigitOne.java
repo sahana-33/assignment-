@@ -12,18 +12,16 @@ public class CountDigitOne {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         // User input
         System.out.print("Enter a number: ");
-        int userInput = scanner.nextInt();
+        int userInput = sc.nextInt();
 
         // Output
         System.out.println("Input: n = " + userInput);
         System.out.println("Output: " + countDigitOne(userInput));
-
-        // Close scanner
-        scanner.close();
+        sc.close();
     }
 	
 
